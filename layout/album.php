@@ -43,7 +43,7 @@ $skip = upg_hidden_category($type);
 
 $args = array(
     'orderby'      => 'slug',
-    'order' => 'ASC',
+    'order' => 'DESC',
     'hide_empty'   => 0,
     'exclude'            => $skip,
     'parent' => $term_id,
